@@ -1,0 +1,16 @@
+.headline{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.btnStyle{
+    text-align: center;
+    align-items: center;
+}
+.divCenter{
+    text-align: center;
+    align-items: center;
+}
+body{
+    background-color: brown;
+}

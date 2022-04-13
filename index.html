@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Phone Book</title>
+</head>
+<body>
+    <div class="divCenter">
+        <h1 class="headline" id="hidden" style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Phone Book</h1>
+        <h2 class="headline" style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Menu</h2>
+        <div>
+            <input type="text" id="fullName" placeholder="Enter Full Name">
+            <input type="text" id="phone" placeholder="Enter Phone Number"> 
+            <button class="btnStyle" id="btnAddPerson">Add Person</button>
+            <h2 id="textThanks" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: white;"> </h2>
+        </div>
+        <h4></h4>
+        <button class="btnStyle" id="btnPrintAll">Print Contacts</button>
+        <h2 id="textAll" style="color: white; size: 10px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> </h2>
+        <h4></h4>
+        <input type="text" id="nameSearch" placeholder="Enter Name to Search">
+        <button class="btnStyle" id="btnSearchName">Search by Name</button>
+        <h4>
+        </h4>
+        <h2 id="textFound" style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> </h2>
+        <h4></h4>
+        <input type="text" id="nameDelete" placeholder="Enter Name to Delete">
+        <button class="btnStyle" id="btnDeleteName">Delete by Name</button>
+        <h4>
+        </h4>
+        <h2 id="textDelete" style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> </h2>
+    </div>
+</body>
+</html>
