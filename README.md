@@ -1,5 +1,10 @@
 # Phone-Book
 Phone-Book website I made with HTML, CSS, JavaScript and JQERY
+In this website you can:
+1. Add contact
+2. Print All contacts (name, phone)
+3. Serach contact by full-name
+4. Delete contact by full-name
 
 Enjoy!
 
