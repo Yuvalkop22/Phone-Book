@@ -1,5 +1,5 @@
 # Phone-Book
-Phone-Book website I made with HTML, CSS, JavaScript and JQERY
+Phone-Book website I made with HTML, CSS, JavaScript and JQUERY
 
 In this website you can:
 1. Add contact
